@@ -1,5 +1,5 @@
 # Desmos-Animations
-All my animations from DesmosBezierRenderer, a program that draws bezier curves to resemble inputted png frames.
+All my animations from DesmosBezierRenderer, a program that draws bezier curves on Desmos to resemble inputted png frames.
 
 https://github.com/user-attachments/assets/27ff7aa9-3f17-44bc-93db-a0c32bd37503
 
