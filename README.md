@@ -1,10 +1,10 @@
 # Desmos-Animations
-all my animations from DesmosBezierRenderer; some are too big to show, so raw downloads are required to view locally. for video animations, cnvmp3 is used to download youtube videos, which is parsed into individual frames by ffmpeg in my wsl terminal:
+All my animations from DesmosBezierRenderer; some are too big to show, so raw downloads are required to view locally. For video animations, cnvmp3 is used to download youtube videos, which is parsed into individual frames by ffmpeg in my wsl terminal:
 
 `ffmpeg -i "<VIDEO_FILE>" -vf "fps=<VIDEO_FPS>" "frame%d.png"` 
 
 
-pressing `Windows + R` and inputting `\\wsl$\Ubuntu\home\{USER}\DesmosBezierRenderer\frames` puts you in the frames folder, where you can copy all of the ffmpeg frames into the folder. 
+Pressing `Windows + R` and inputting `\\wsl$\Ubuntu\home\{USER}\DesmosBezierRenderer\frames` puts you in the frames folder, where you can copy all of the ffmpeg frames into the folder. 
 
 To speed up the render video, run `ffmpeg -i input.mp4 -vf "setpts=0.5*PTS" output.mp4`. This speeds it up by 2x. Making the `setps` element smaller increases video speed, and vice versa. However, this doesn't auto trim the video.
 
