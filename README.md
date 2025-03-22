@@ -1,5 +1,5 @@
 # Desmos-Animations
-All my animations from DesmosBezierRenderer; some are too big to show, so raw downloads are required to view locally. For video animations, cnvmp3 is used to download youtube videos, which is parsed into individual frames by ffmpeg in my wsl terminal:
+All my animations from DesmosBezierRenderer, a program that draws bezier curves to resemble inputted png frames; some are too big to show, so raw downloads are required to view locally. For video animations, cnvmp3 is used to download youtube videos, which is parsed into individual frames by ffmpeg in my wsl terminal:
 
 `ffmpeg -i "<VIDEO_FILE>" -vf "fps=<VIDEO_FPS>" "frame%d.png"` 
 
