@@ -1,5 +1,9 @@
 # Desmos-Animations
-All my animations from DesmosBezierRenderer, a program that draws bezier curves to resemble inputted png frames; some are too big to show, so raw downloads are required to view locally. For video animations, cnvmp3 is used to download youtube videos, which is parsed into individual frames by ffmpeg in my wsl terminal:
+All my animations from DesmosBezierRenderer, a program that draws bezier curves to resemble inputted png frames.
+
+https://github.com/user-attachments/assets/27ff7aa9-3f17-44bc-93db-a0c32bd37503
+
+ For video animations, cnvmp3 is used to download youtube videos, which is parsed into individual frames by ffmpeg in my wsl terminal:
 
 `ffmpeg -i "<VIDEO_FILE>" -vf "fps=<VIDEO_FPS>" "frame%d.png"` 
 
@@ -12,8 +16,4 @@ To trim, run `ffmpeg -ss {START_TIME} -i example.mp4 -to {END_TIME} -c:v copy -c
 
 To split audio from original video, run `ffmpeg -i infile.mp4 -an -c:v copy videoout.mp4 -vn -c:a copy audioout.mp4`. Then, merge into the trimmed sped up video: `ffmpeg -i input.mp4 -i input.mp3 -c copy -map 0:v:0 -map 1:a:0 output.mp4`
 
-
-
-
-https://github.com/user-attachments/assets/27ff7aa9-3f17-44bc-93db-a0c32bd37503
 
