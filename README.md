@@ -1,5 +1,5 @@
 # Desmos-Animations
-All my animations from DesmosBezierRenderer, a program that draws bezier curves on Desmos to resemble inputted png frames. Each markdown file in the repo contains the rendered video with sound and the original video.
+All my animations from DesmosBezierRenderer, a program that draws bezier curves on Desmos to resemble inputted png frames. Each markdown file in the repo contains the rendered video with sound and the original video. Thanks to Junferno for the open source.
 
 https://github.com/user-attachments/assets/27ff7aa9-3f17-44bc-93db-a0c32bd37503
 
