@@ -1,5 +1,5 @@
 
-horrendous quality bec it didn't show in preview lmao
+horrendous quality bec it didn't show in preview lmao, also software cant handle hyperspace :( 
 
 https://github.com/user-attachments/assets/ca53252e-fa93-4ed4-adbb-861dae18633d
 
